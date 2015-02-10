@@ -1,0 +1,100 @@
+01.00 Carson Busses $29.95
+01.01 Earl E. Byrd $8.37
+01.02 Patty Cakes $15.26
+01.03 Derri Anne Connecticut $19.25
+01.04 Moe Dess $19.25
+01.05 Leda Doggslife $13.99
+01.06 Dan Druff $31.57
+01.07 Al Fresco $8.49
+01.08 Ido Hoe $14.47
+01.09 Howie Kisses $15.86
+01.10 Len Lease $11.11
+01.11 Phil Meup $15.98
+01.12 Ira Pent $16.27
+01.13 Ben D. Rules $7.50
+01.14 Ave Sectomy $50.85
+01.15 Gary Shattire $14.26
+01.16 Bobbi Soks $5.68
+01.17 Sheila Takya $15.00
+01.18 Rose Tattoo $114.07
+01.19 Moe Tell $10.09
+02.00 Les Toil $19.25
+02.01 Lionel Train $13.99
+02.02 N.V. Ubble $8.47
+02.03 Mayflower van Lines $16.28
+02.04 Chad A. While $9.60
+02.05 Larry Yet Ann Arbor $9.49
+02.06 Ted D. Baer $12.47
+02.07 Etta Burger $10.99
+02.08 Doris Closed $10.09
+02.09 Bard Dahl $21.03
+02.10 Barry Dellive $16.13
+02.11 Robin Droppings $17.47
+02.12 Io Ewe $16.71
+02.13 May Flye $34.33
+02.14 Alma Gedon $14.61
+02.15 Hy Marks $14.67
+02.16 Holly Hox $9.49
+02.17 Chris Kraft $8.99
+02.18 Ellis I. Land $20.47
+02.19 Penny Loafer $6.47
+03.00 Dell Monte $12.00
+03.01 Baxter Nature $6.47
+03.02 Agatha L. Outtahere $8.99
+03.03 Bunny Pellits $18.75
+03.04 Cheri Pitts $16.93
+03.05 Forrest Ranger $12.51
+03.06 Ron Rico $60.98
+03.07 Cole Shute $4.99
+03.08 Gracie Spoon $11.10
+03.09 May Zola Penny Ante $9.34
+03.10 Ray Beeze $55.82
+03.11 Barbara Blacksheep $10.00
+03.12 Petey Bowt $8.79
+03.13 Warner Brothers $8.09
+03.14 Mel N. Colic $16.66
+03.15 Petey Cue $14.36
+03.16 B.V. Dease $11.98
+03.17 Benny Fitt $16.75
+03.18 Bette R. Haff $8.79
+03.19 Desi Krashum $9.99
+04.00 Gill D. Lily $21.21
+04.01 Cole Mines $11.56
+04.02 Phil R. Monik $8.99
+04.03 L.O. Quency $14.30
+04.04 Connel Radd $4.99
+04.05 Ben D. Rules $45.00
+04.06 Cleon Sheets $16.27
+04.07 Renata Tampaks $14.24
+04.08 Justin Thyme $10.98
+04.09 Matt Tress $18.47
+04.10 Vic Trola $11.43
+04.11 Al Truist $17.63
+04.12 Aaron Tyres $25.00
+04.13 U.N. Wattarmey $16.13
+04.14 Abe L.N. Willing $4.99
+04.15 Jerry Atrick $14.11
+04.16 Hy Ball $16.61
+04.17 Jill E. Bean $9.49
+04.18 Kitty Car $11.13
+04.19 Phil Coe $11.10
+05.00 Stella Constellation $25.00
+05.01 Lee Derhosen $8.49
+05.02 Stan Dupp $15.04
+05.03 Hammond Ecks $17.14
+05.04 Fanny Farmer $15.68
+05.05 Golda Fish $10.60
+05.06 Shirley U. Geste $14.98
+05.07 Lou Gubrious $8.99
+05.08 Beverly Hills $20.74
+05.09 Castor Hoyle $25.95
+05.10 Bella Katt $17.98
+05.11 Al Lergy $4.99
+05.12 Ida Lowers $8.49
+05.13 Pete Moss $15.36
+05.14 Rhoda Mule $9.89
+05.15 Missy Perriad $15.60
+05.16 Carolina Rice $28.12
+05.17 Anna Septic $19.97
+05.18 Cass Tigate $25.70
+05.19 Val Voline $26.28

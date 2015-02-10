@@ -1,0 +1,2 @@
+# To launch iPython Notebook
+$ ipython notebook <optional filename>
