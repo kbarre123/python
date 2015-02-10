@@ -5,6 +5,7 @@ from tutorial.items import DmozItem
 
 class DmozSpider(Spider):
     name = "dmoz"
+    rotate_user_agent = True #Rotating user agent code taken from https://gist.github.com/seagatesoft/e7de4e3878035726731d
     allowed_domains = ["dmoz.org"]
     start_urls = [
         "http://www.dmoz.org/Computers/Programming/Languages/Python/Books/",
