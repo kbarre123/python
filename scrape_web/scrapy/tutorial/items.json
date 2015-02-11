@@ -1,4 +1,4 @@
-// To execute the spider and get JSON output, run $scrapy crawl dmoz -o items.json
+// $scrapy crawl dmoz -o items.json
 
 [{"desc": ["- Contains links to assorted resources from the Python universe, compiled by PythonWare.\r"], "link": ["http://www.pythonware.com/daily/"], "title": ["eff-bot's Daily Python URL"]},
 {"desc": ["- A directory of free Python and Zope hosting providers, with reviews and ratings.\r"], "link": ["http://www.oinko.net/freepython/"], "title": ["Free Python and Zope Hosting Directory"]},
