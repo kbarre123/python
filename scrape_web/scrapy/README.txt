@@ -1,0 +1,1 @@
+To execute, run '$scrapy crawl dmoz -o items.json'
