@@ -6,7 +6,7 @@ import requests
 def main():
 	results = []
 	ans = []
-	link = '12345'
+	link = '44827'
 	for i in range(1,401):
 		page = requests.get('http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing=%s' % link)
 		#print 'status code:', page.status_code
