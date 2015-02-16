@@ -1,10 +1,10 @@
 #!/usr/bin/python
 
-import sys
 import math
 
 def main():
-	# a = m^2 - n^2, b = 2mn, c = m^2 + n^2
+	ans = math.pow(2, 38)
+	print int(ans)
 
 if __name__ == '__main__':
     main()
