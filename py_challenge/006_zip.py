@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+# http://www.pythonchallenge.com/pc/def/integrity.html
 import urllib, zipfile, re
 
 def main():
