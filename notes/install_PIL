@@ -1,0 +1,36 @@
+--------------------------------------------------------------------
+    PIL SETUP SUMMARY
+    --------------------------------------------------------------------
+    version      Pillow 2.7.0
+    platform     linux2 2.7.5+ (default, Feb 27 2014, 19:39:55)
+                 [GCC 4.8.1]
+    --------------------------------------------------------------------
+    *** TKINTER support not available
+    *** JPEG support not available
+    *** OPENJPEG (JPEG2000) support not available
+    --- ZLIB (PNG/ZIP) support available
+    *** LIBTIFF support not available
+    *** FREETYPE2 support not available
+    *** LITTLECMS2 support not available
+    *** WEBP support not available
+    *** WEBPMUX support not available
+    --------------------------------------------------------------------
+    To add a missing option, make sure you have the required
+    library, and set the corresponding ROOT variable in the
+    setup.py script.
+    To check the build, run the selftest.py script.
+    changing mode of build/scripts-2.7/pilfile.py from 644 to 755
+    changing mode of build/scripts-2.7/pilfont.py from 644 to 755
+    changing mode of build/scripts-2.7/pildriver.py from 644 to 755
+    changing mode of build/scripts-2.7/pilconvert.py from 644 to 755
+    changing mode of build/scripts-2.7/pilprint.py from 644 to 755
+    changing mode of /usr/local/bin/pilfile.py to 755
+    changing mode of /usr/local/bin/pilfont.py to 755
+    changing mode of /usr/local/bin/pildriver.py to 755
+    changing mode of /usr/local/bin/pilconvert.py to 755
+    changing mode of /usr/local/bin/pilprint.py to 755
+  Running setup.py install for Image
+Successfully installed Image-1.3.4 django-1.7.4 pillow-2.7.0
+------------------------------------------------------------------------
+
+After installation, I tried img.show() and nothing happended. This is because Pillow tries to call xv, which is not longer included in Debian/Ubuntu do to its 'non-freeness'. As suggested, made a symlink as such: '$ sudo ln -s /usr/bin/display /usr/bin/xv' but still no img preview.

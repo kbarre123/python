@@ -1,24 +1,30 @@
 #!/usr/bin/python
 
-import sys
-import math
+import sys, math
 
 def main():
-	# a = m^2 - n^2, b = 2mn, c = m^2 + n^2
-	m = 1
-	n = 1
-	a = 0
-	b = 2 * m * n
-	c = math.pow(m, 2) + math.pow(n, 2)
+	a, b, c = 0, 0, 0
+	found = False
+	for i in range(200, 300):
+		if found:
+			break
+		a = i
+		for j in range(300, 400):
+			if found:
+				break
+			b = j
+			for k in range(400, 500):
+				c = k
+				if (math.pow(a, 2) + math.pow(b, 2)) == math.pow(c, 2):
+					if (a + b + c) == 1000:
+						print a, b, c
+						found = True
+						break
+				else:
+					print a, b, c
 
-	print 'm:%d, n:%d, a:%d, b:%d, c:%d' % (m, n, a, b, c)
-
-	for x in range(1,10):
-		m = m + x
-		a = math.pow(m, 2) - math.pow(n, 2)
-		for y in range(1,10):
-			n = y + x
-			print 'm:%d, n:%d, a:%d, b:%d, c:%d' % (m, n, a, b, c)
+	ans = a * b * c
+	print ans
 
 if __name__ == '__main__':
     main()
