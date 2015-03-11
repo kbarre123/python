@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
-grid = [
-	#0   1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19
+a = [
+	#0   1   2   3   4   5   6   7   8   9   10  11  12  13  14  15  16  17  18  19 J
+																					  #I
 	[8,  2,  22, 97, 38, 15, 0,  40, 0,  75, 4,  5,  7,  78, 52, 12, 50, 77, 91, 8],  #0
 	[49, 49, 99, 40, 17, 81, 18, 57, 60, 87, 17, 40, 98, 43, 69, 48, 4,  56, 62, 0],  #1
 	[81, 49, 31, 73, 55, 79, 14, 29, 93, 71, 40, 67, 53, 88, 30, 3,  49, 13, 36, 65], #2
@@ -24,18 +25,69 @@ grid = [
 	[1,  70, 54, 71, 83, 51, 54, 69, 16, 92, 33, 48, 61, 43, 52, 1,  89, 19, 67, 48]  #19
 ]
 
-print grid[0][1]
-# Can be up?
-#i > 60
+largest = [0, 0, 0, 0]
+sum_up = 0
+sum_down = 0
+sum_left = 0
+sum_right = 0
+sum_diag = 0
 
-# Can be down?
-#i < 320
+# Can be up: a[i>2][j*]
+for i in range(3, len(a)):
+	for j in range(0, len(a)):
+		print "up:", i, j
+		sum_up = a[i][j] * a[i-1][j] * a[i-2][j] * a[i-3][j]
+		#print "up: %d, %d, %d, %d" % (a[i][j], a[i-1][j], a[i-2][j], a[i-3][j])
+		if sum_up > largest[1]:
+			largest = ['**up**', sum_up, i, j]
+			print largest
 
-# Can be left?
-#i > 3 on each row
+# Can be down: a[i<17][j*]
+for i in range(0, len(a)-3):
+	for j in range(0, len(a)):
+		print "down:", i, j
+		sum_down = a[i][j] * a[i+1][j] * a[i+2][j] * a[i+3][j]
+		#print "down: %d, %d, %d, %d" % (a[i][j], a[i+1][j], a[i+2][j], a[i+3][j])
+		if sum_down > largest[1]:
+			largest = ['**down**', sum_down, i, j]
+			print largest
 
-# Can be right?
-#i < 16 on each row
+# Can be left: a[i*][j>2]
+for i in range(0, len(a)):
+	for j in range(3, len(a)):
+		print "left:", i, j
+		sum_left = a[i][j] * a[i][j-1] * a[i][j-2] * a[i][j-3]
+		#print "left: %d, %d, %d, %d" % (a[i][j], a[i][j-1], a[i][j-2], a[i][j-3])
+		if sum_left > largest[1]:
+			largest = ['**left**', sum_left, i, j]
+			print largest
 
-# Can be diagonal?
-#i < 336
+# Can be right: a[i*][j<17]
+for i in range(0, len(a)):
+	for j in range(0, len(a)-3):
+		print "right:", i, j
+		sum_right = a[i][j] * a[i][j+1] * a[i][j+2] * a[i][j+3]
+		#print "right: %d, %d, %d, %d" % (a[i][j], a[i][j+1], a[i][j+2], a[i][j+3])
+		if sum_right > largest[1]:
+			largest = ['**right**', sum_right, i, j]
+			print largest
+
+# Can be diagonal: 
+for i in range(0, len(a)-3):
+	for j in range(0, len(a)-3):
+		print "diag:", i, j
+		sum_diag = a[i][j] * a[i+1][j+1] * a[i+2][j+2] * a[i+3][j+3]
+		#print "right: %d, %d, %d, %d" % (a[i][j], a[i][j+1], a[i][j+2], a[i][j+3])
+		if sum_diag > largest[1]:
+			largest = ['**diag**', sum_diag, i, j]
+			print largest
+
+print "\n"
+print (10 * "*"), "Final", (10 * "*")
+print largest, "\n"
+
+print "sum_up", sum_up
+print "sum_down", sum_down
+print "sum_left", sum_left
+print "sum_right", sum_right
+print "sum_diag", sum_diag
