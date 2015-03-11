@@ -7,7 +7,7 @@ def main():
 	# a = m^2 - n^2, b = 2mn, c = m^2 + n^2
 	m = 1
 	n = 1
-	a = math.pow(m, 2) - math.pow(n, 2)
+	a = 0
 	b = 2 * m * n
 	c = math.pow(m, 2) + math.pow(n, 2)
 
@@ -15,6 +15,7 @@ def main():
 
 	for x in range(1,10):
 		m = m + x
+		a = math.pow(m, 2) - math.pow(n, 2)
 		for y in range(1,10):
 			n = y + x
 			print 'm:%d, n:%d, a:%d, b:%d, c:%d' % (m, n, a, b, c)
