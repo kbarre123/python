@@ -1,2 +1,5 @@
 # To launch iPython Notebook
 $ ipython notebook <optional filename>
+
+# To make service available to all machines in LAN, change XXX to host machine's address
+$ ipython notebook --ip="192.168.0.XXX"
