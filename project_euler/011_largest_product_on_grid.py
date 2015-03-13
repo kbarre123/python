@@ -39,7 +39,7 @@ for i in range(3, len(a)):
 		sum_up = a[i][j] * a[i-1][j] * a[i-2][j] * a[i-3][j]
 		#print "up: %d, %d, %d, %d" % (a[i][j], a[i-1][j], a[i-2][j], a[i-3][j])
 		if sum_up > largest[1]:
-			largest = ['**up**', sum_up, i, j]
+			largest = ['**up**', sum_up, i, j]  
 			print largest
 
 # Can be down: a[i<17][j*]
