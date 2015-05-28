@@ -1,0 +1,3 @@
+super-user: admin
+pass: password
+
