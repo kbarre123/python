@@ -1,5 +1,5 @@
 /ipython_notebooks/\*
-/ipython_notebooks/.ipynb_checkpoints
+.ipynb_checkpoints
 *.pyc
 .~lock.*
 *.tar
