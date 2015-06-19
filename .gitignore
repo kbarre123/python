@@ -1,7 +1,7 @@
 /ipython_notebooks/\*
-/ipython_notebooks/.ipynb_checkpoints
+.ipynb_checkpoints
 *.pyc
 .~lock.*
 *.tar
-*.gif
 *.mp4
+*.gif
