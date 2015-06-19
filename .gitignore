@@ -3,3 +3,5 @@
 *.pyc
 .~lock.*
 *.tar
+*.gif
+*.mp4
